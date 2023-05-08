@@ -7,8 +7,6 @@ indent() {
   sed -u 's/^/       /'
 }
 
-apt-get update && apt-get install libncurses5
-
 echo "-----> Installing lame"
 BUILD_DIR=$1
 VENDOR_DIR="vendor"
